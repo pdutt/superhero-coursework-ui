@@ -1,15 +1,15 @@
-import React from 'react';
+import React, {Component} from 'react';
 import './App.css';
 import Tabs from './Tabs/Tabs';
 import Homepage from "./HomePage/Homepage";
 require('./Tabs/styles.css');
 require('./HomePage/Homepage.css');
 
-function App() {
+function App () {
   return (
       <div>
         <Tabs>
-          <div label="Homepage">
+          <div label="Home">
               <Homepage/>
           </div>
           <div label="Profile">

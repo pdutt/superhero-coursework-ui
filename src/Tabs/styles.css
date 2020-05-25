@@ -1,7 +1,8 @@
 .tab-list {
     background-color: indianred;
-    border-bottom: 1px solid indianred;
+    border-bottom: 5px solid indianred;
     padding-left: 0;
+    text-align: center;
 }
 
 .tab-list-item {
@@ -9,12 +10,21 @@
     display: inline-block;
     list-style: none;
     margin-bottom: -1px;
-    padding: 0.5rem 0.75rem;
-    color: white
+    margin-top: 1px;
+    padding: 1rem 2rem;
+    color: white;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
 }
 
 .tab-list-active {
     background-color: indianred;
     border: solid indianred;
     border-width: 1px 1px 0 1px;
+    text-align: center;
+}
+
+.tab-list-item:hover {
+    color: #61DAFB;
+    font-size: calc(10px + 2vmin);
 }

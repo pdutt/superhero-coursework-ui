@@ -4,9 +4,9 @@ import logo from '../Images/logo.svg';
 function Homepage() {
     return (
                 <div label="Homepage">
-                    <div className="App">
-                        <header className="App-header">
-                            <img src={logo} className="App-logo" alt="logo"  />
+                    <div className="Homepage">
+                        <header className="Homepage-header">
+                            <img src={logo} className="Homepage-logo" alt="logo"  />
                             <p>
                                 Superhero Coursework Homepage
                             </p>
