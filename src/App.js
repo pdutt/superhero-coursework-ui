@@ -1,22 +1,16 @@
 import React from 'react';
-import logo from './Images/logo.svg';
 import './App.css';
 import Tabs from './Tabs/Tabs';
+import Homepage from "./HomePage/Homepage";
 require('./Tabs/styles.css');
+require('./HomePage/Homepage.css');
 
 function App() {
   return (
       <div>
         <Tabs>
           <div label="Homepage">
-              <div className="App">
-                  <header className="App-header">
-                      <img src={logo} className="App-logo" alt="logo"  />
-                      <p>
-                          Superhero Coursework Homepage
-                      </p>
-                  </header>
-              </div>
+              <Homepage/>
           </div>
           <div label="Profile">
             This will soon be populated with profiles!
