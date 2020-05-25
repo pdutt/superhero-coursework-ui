@@ -1,6 +1,6 @@
 .tab-list {
     background-color: indianred;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid indianred;
     padding-left: 0;
 }
 
@@ -10,10 +10,11 @@
     list-style: none;
     margin-bottom: -1px;
     padding: 0.5rem 0.75rem;
+    color: white
 }
 
 .tab-list-active {
     background-color: indianred;
-    border: solid #ccc;
+    border: solid indianred;
     border-width: 1px 1px 0 1px;
 }

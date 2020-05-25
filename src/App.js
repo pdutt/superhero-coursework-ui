@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './Images/logo.svg';
 import './App.css';
-import Tabs from './Tabs';
-require('./styles.css');
+import Tabs from './Tabs/Tabs';
+require('./Tabs/styles.css');
 
 function App() {
   return (

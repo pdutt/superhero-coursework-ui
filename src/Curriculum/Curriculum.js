@@ -1,6 +1,6 @@
 import React from 'react';
 import './Curriculum.css';
-import logo from "../logo.svg";
+import logo from "../Images/logo.svg";
 
 function Curriculum() {
     return (
