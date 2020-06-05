@@ -2,16 +2,6 @@
     text-align: center;
 }
 
-.Curriculum-logo {
-    height: 40vmin;
-    pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-    .Curriculum-logo {
-        animation: Curriculum-logo-spin infinite 20s linear;
-    }
-}
 
 .Curriculum-header {
     background-color: #282c34;
@@ -22,13 +12,15 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: center;
 }
 
-@keyframes Curriculum-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.card-title {
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding-left: 10px;
+    padding-right: 20px;
+    text-align: center;
 }

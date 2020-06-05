@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-import logo from '../Images/logo.svg';
 import ProfileTabs from './ProfileTabs'
-import Table from '../Shared/Table'
 require('./ProfileTabs.css');
 
 
